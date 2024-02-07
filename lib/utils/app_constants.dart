@@ -10,6 +10,5 @@ class AppConstants{
   //StatusCode
   static const int successStatusCode = 200;
   static const int exceptionStatusCode = -1;
-  static const int unauthenticatedStatusCode = 401;
 
 }
