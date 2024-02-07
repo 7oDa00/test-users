@@ -21,7 +21,7 @@ class UsersController extends GetxController implements GetxService{
 
     update();
 
-    await getData('${AppConstants.domain}${AppConstants.users}').then((response){
+    await getData('${AppConstants.domain}${AppConstants.usersAPI}').then((response){
       if(response.statusCode == 200){
         users = jsonDecode(response.body).map<UserModel>((data) => UserModel.fromJson(data)).toList();
       }else{
@@ -32,15 +32,5 @@ class UsersController extends GetxController implements GetxService{
     refreshingData = false;
 
     update();
-  }
-
-  void getUserDetails(int id) async {
-    await getData('${AppConstants.domain}${AppConstants.userDetails}/$id').then((response){
-      if(response.statusCode == 200){
-        currentUser = UserModel.fromJson(jsonDecode(response.body));
-      }else{
-        currentUser = UserModel(id: -1, name: '', username: '', email: '', address: Address(street: '', suite: '', city: '', zipcode: '', geo: Geo(lat: '', lng: '')), phone: '', website: '', company: Company(name: '', catchPhrase: '', bs: ''));
-      }
-    });
   }
 }

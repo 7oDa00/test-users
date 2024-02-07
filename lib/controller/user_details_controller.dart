@@ -22,7 +22,7 @@ class UserDetailsController extends GetxController {
 
     update();
 
-    await getData('${AppConstants.domain}${AppConstants.userDetails}/$id').then((response){
+    await getData('${AppConstants.domain}${AppConstants.userDetailsAPI}/$id').then((response){
       if(response.statusCode == 200){
         userModel = UserModel.fromJson(jsonDecode(response.body));
       }else{
