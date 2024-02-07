@@ -5,4 +5,4 @@ The application displays a list of users, and when you click on each item in the
 
 ## Screenshots
 
-![App Screenshot](C:\Users\70DA\Desktop\1.jpg)
+![](../../Desktop/1.jpg)![](../../Desktop/2.jpg)![](../../Desktop/3.jpg)
