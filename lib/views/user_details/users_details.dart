@@ -4,7 +4,6 @@ import 'package:get/get.dart';
 
 import '../../controller/user_details_controller.dart';
 import '../../directory/images.dart';
-import '../../helper/route_helper.dart';
 
 class UsersDetailsScreen extends StatefulWidget{
   final int id;
