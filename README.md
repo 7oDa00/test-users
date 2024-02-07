@@ -2,8 +2,18 @@
 
 The application displays a list of users, and when you click on each item in the list, it goes to the user data details interface.
 
+## Dependencies
 
-## Screenshots
+dependencies:
+flutter:
+sdk: flutter
+
+cupertino_icons: ^1.0.2
+get: ^4.6.5
+http: ^1.1.0
+flutter_svg: ^2.0.9
+
+### Screenshots
 
 ![1](https://github.com/1111333366667oda/test_users/assets/127032324/60a69ca2-0de3-432b-a36d-2987eaa5f5e0)
 ![2](https://github.com/1111333366667oda/test_users/assets/127032324/2c594da1-d68a-4bc3-90f0-d1113fae97aa)
