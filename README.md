@@ -16,7 +16,7 @@ flutter_svg: ^2.0.9
   GET /api/users
 ```
 
-#### Get specific user
+#### Get specific user details
 
 ```http
   GET /api/users/${id}
@@ -28,8 +28,9 @@ flutter_svg: ^2.0.9
 
 #### Screenshots
 
-![1](https://github.com/7oDa00/test-users/assets/127032324/646b7124-7d7c-416b-b176-0199a1c2d26a)
-![2](https://github.com/7oDa00/test-users/assets/127032324/8067ce4f-f3b3-4280-9b1d-4f54da0181be)
-![3](https://github.com/7oDa00/test-users/assets/127032324/66bf76f0-9a80-4634-8f5f-b4831b848249)
+![1](https://github.com/7oDa00/test-users/assets/127032324/66bf76f0-9a80-4634-8f5f-b4831b848249)
+![2](https://github.com/7oDa00/test-users/assets/127032324/646b7124-7d7c-416b-b176-0199a1c2d26a)
+![3](https://github.com/7oDa00/test-users/assets/127032324/8067ce4f-f3b3-4280-9b1d-4f54da0181be)
+
 
 
